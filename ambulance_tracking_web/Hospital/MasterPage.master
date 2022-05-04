@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Hospital_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+         
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+     <div style="border:2px solid none;margin:-10px;background-color:dimgray">
+            <img src="../images/logo.PNG" height="100" width="100" style="margin-left:2%"/>
+         <a href="../login.aspx" style="color:white;margin-left:95%">Logout</a>
+     </div>
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cp.ambulancetracking_app.SelectLoginActivity"
+    android:padding="5dp"
+    android:background="@drawable/grdbg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Ambulance Login"
+            android:id="@+id/btnAML"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="User Login"
+            android:id="@+id/btnUL"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</RelativeLayout>

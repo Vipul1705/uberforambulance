@@ -1,0 +1,8 @@
+
+
+
+
+103.21.58.192
+db/username: ambulance_track
+Password : Password@123
+http://my-demo.in/Ambulance_Tracking_lr_web/manageHospital.aspx#nogo
